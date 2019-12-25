@@ -15,6 +15,6 @@ public class Main {
         System.out.println();
         System.out.println(person1.marry(person4));//меняем супругов
         System.out.println();
-        System.out.println(person1.marry(person3));//пытаемся поженить однополых (по идее будет false);
+        System.out.println(person1.marry(person3));//пытаемся поженить однополых (по идее false);
     }
 }
