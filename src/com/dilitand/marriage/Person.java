@@ -12,7 +12,7 @@ public class Person {
 
     public boolean marry(Person person) {
         //Если пол разный и они не супруги то женим
-        if (this.man != person.man && (person.spouse == null || this.spouse == null || !person.spouse.equals(this))) {
+        if (this.man != person.man && (person.spouse == null || this.spouse == null || !this.spouse.equals(person))) {
             //разводим всех
             boolean tmp = false;
             tmp = person.spouse != null ? person.spouse.divorce() : false;
@@ -25,7 +25,7 @@ public class Person {
             System.out.println(person.name + " и " + person.spouse.name + " поженились");
             return true;
         } else {
-            System.out.println(this.name + person.name + " и " + " не удалось поженить");
+            System.out.println(this.name  + " и " + person.name + " не удалось поженить");
             return false;
         }
     }
