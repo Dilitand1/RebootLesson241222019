@@ -22,6 +22,7 @@ public class Main {
         System.out.println();
         System.out.println(person1.marry(person3));//пытаемся поженить однополых (по идее false )
     }
+    /*
     public static void tstAnswer()
     {
         //Проверяем что возвращают различные сложения
@@ -50,5 +51,5 @@ public class Main {
 
         System.out.println("Вывод: классы обертки и String не меняются по ссылке, по стрингам можно использовать StringBuilder");
     }
-
+*/
 }
